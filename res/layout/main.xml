@@ -3,31 +3,36 @@
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:id="@+id/ijgsdg">
-    <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MyActivity"
-            />
-    <TextView
-            android:layout_width="162dp"
-            android:layout_height="wrap_content"
-            android:text="ssdgdg"
-            android:id="@+id/textView"/>
-    <RadioButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New RadioButton"
-            android:id="@+id/radioButton" android:layout_gravity="center_horizontal"/>
-    <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New CheckBox"
-            android:id="@+id/checkBox" android:layout_gravity="center_horizontal"/>
-    <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="New CheckBox"
-            android:id="@+id/checkBox2" android:layout_gravity="center_horizontal"/>
+              android:id="@+id/main_Layout">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v4.view.ViewPager
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/pager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+            <!--<android.support.v4.view.PagerTabStrip-->
+            <!--android:id="@+id/pager_title_strip"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="top"-->
+            <!--android:background="#fdf123"-->
+            <!--android:textColor="#fff"-->
+            <!--android:paddingTop="4dp"-->
+            <!--android:paddingBottom="4dp">-->
+
+            <!--</android.support.v4.view.PagerTabStrip>-->
+        </android.support.v4.view.ViewPager>
+        <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:text="New RadioButton"
+                android:id="@+id/radioButton" android:layout_gravity="center_horizontal"
+                android:layout_weight="-10" android:layout_marginTop="40dp" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
 </LinearLayout>
 

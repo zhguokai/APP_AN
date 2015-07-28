@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="200dp" android:divider="#ffff2f10" android:dividerPadding="1dp"
+              android:background="#fff6ffe2">
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="商品"
+            android:id="@+id/item_shangpin" android:layout_gravity="center_horizontal" android:layout_marginTop="3dp"
+            android:autoText="true" android:textColor="#ffff182d"/>
+    <GridLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="122dp" android:columnCount="20" android:rowCount="1" android:id="@+id/gridLayout2">
+        <ImageView
+                android:layout_width="120dp"
+                android:layout_height="fill_parent"
+                android:id="@+id/item_image" android:layout_gravity="center_vertical|fill"
+                android:src="@drawable/ic_launcher" android:layout_row="0" android:layout_rowSpan="1"
+                android:layout_column="1" android:layout_columnSpan="1" android:background="#ffff9ce9"/>
+        <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="-"
+                android:id="@+id/item_subBtn" android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="1px"/>
+        <EditText
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:id="@+id/item_count" android:layout_gravity="top|center_horizontal" android:layout_weight="0.10"
+                android:text="3" android:background="#ff65ff5a" android:textColor="#ff2003ff" android:editable="false"/>
+        <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="+"
+                android:id="@+id/item_addBtn" android:layout_gravity="top|center_vertical"/>
+        <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:text="删除"
+                android:id="@+id/item_delBtn" android:layout_row="0" android:layout_column="19"
+                android:layout_gravity="bottom"/>
+    </GridLayout>
+</LinearLayout>
