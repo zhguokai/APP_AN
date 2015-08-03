@@ -27,16 +27,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../LIB/AND/async-http-client-1.9.30.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../../LIB/AND/netty-3.10.4.Final.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../../LIB/andriod-async-http/releases/android-async-http-1.4.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

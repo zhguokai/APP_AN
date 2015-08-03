@@ -17,5 +17,8 @@ public class CommentData {
     //商城主页面数量
     public static final int SOTRE_MAIN_PAGE_COUNT = 5;
 
+    //URL
+    public static final String SERVER_URL = "http://192.168.1.160:8080/";
+
 
 }

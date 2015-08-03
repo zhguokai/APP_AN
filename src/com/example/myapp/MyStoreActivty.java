@@ -111,9 +111,12 @@ public class MyStoreActivty extends FragmentActivity implements View.OnClickList
         }
     }
 
+    /**
+     * @description: 改变当前视图
+     * @param: index当前视图位置
+     */
     public void changeView(int index) {
         viewPager.setCurrentItem(index, true);
-
     }
     //建立数据适配器
 
@@ -140,8 +143,6 @@ public class MyStoreActivty extends FragmentActivity implements View.OnClickList
             return fragmentList.size();
         }
     }
-
-
 }
 
 
